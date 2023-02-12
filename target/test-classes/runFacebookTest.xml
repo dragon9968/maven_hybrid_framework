@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="NopCommerce">
+
+<listeners>
+   <listener class-name = "commons.MethodListener"/>
+</listeners>
+
+     <parameter name = "url" value = "https://www.facebook.com"/>
+  <test name="Run on Firefox">
+     <parameter name = "browser" value = "firefox"/>
+    <classes>
+      <class name="com.facebook.register.Level_13_Element_Undisplayed"/>
+    </classes>
+  </test>
+<!--   <test name="Run on Chrome">
+     <parameter name = "browser" value = "CHROME"/>
+    <classes>
+      <class name="com.nopcommerce.user.Level_04_Mutiple_Browser"/>
+      <class name="com.nopcommerce.user.Level_03_Page_Object_02_Login"/>
+    </classes>
+  </test>
+   <test name="Run on EDGE">
+     <parameter name = "browser" value = "edge"/>
+    <classes>
+      <class name="com.nopcommerce.user.Level_04_Mutiple_Browser"/>
+      <class name="com.nopcommerce.user.Level_03_Page_Object_02_Login"/>
+    </classes>
+  </test> -->
+   
+  
+  
+  
+   <!-- Test -->
+</suite> <!-- Suite -->

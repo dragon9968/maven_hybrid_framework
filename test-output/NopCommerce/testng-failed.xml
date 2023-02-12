@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NopCommerce]">
+  <test thread-count="5" name="Run on Chrome(failed)">
+    <parameter name="browser" value="CHROME"/>
+    <classes>
+      <class name="com.nopcommerce.user.Level_20_Manage_Data_Part_II">
+        <methods>
+          <include name="afterClass"/>
+          <include name="User_01_Register"/>
+          <include name="deleteAllFilesInReportNGScreenshot"/>
+          <include name="beforeClass"/>
+          <include name="User_02_Login"/>
+        </methods>
+      </class> <!-- com.nopcommerce.user.Level_20_Manage_Data_Part_II -->
+    </classes>
+  </test> <!-- Run on Chrome(failed) -->
+</suite> <!-- Failed suite [NopCommerce] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NopCommerce]" verbose="0">
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="reportConfig.ReportNGListener"/>
+    <listener class-name="reportConfig.ExtentReportListenerV2"/>
+    <listener class-name="reportConfig.AllureTestListener"/>
+  </listeners>
+  <test thread-count="5" name="Run on Chrome(failed)" verbose="0">
+    <parameter name="browser" value="CHROME"/>
+    <classes>
+      <class name="com.nopcommerce.user.Level_15_ExtendReport_AttScreenshot">
+        <methods>
+          <include name="deleteAllFilesInReportNGScreenshot"/>
+          <include name="afterClass"/>
+          <include name="User_02_Login" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.nopcommerce.user.Level_15_ExtendReport_AttScreenshot -->
+    </classes>
+  </test> <!-- Run on Chrome(failed) -->
+</suite> <!-- Failed suite [NopCommerce] -->
